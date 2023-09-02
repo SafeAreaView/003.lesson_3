@@ -1,2 +1,5 @@
-let name = prompt();
-alert(`Hello,${name}! How are you?`);
+"use strict";
+
+let userName = prompt();
+
+alert(`Hello,${userName}! How are you?`);
