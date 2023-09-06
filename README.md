@@ -1,7 +1,12 @@
-# 002.lesson_2
+# 003.lesson_3
 
 "use strict";
 
-let userName = prompt();
+let firstNumber = +prompt("Enter the first number"),
+    secondNumber = +prompt("Enter the second number");
 
-alert(`Hello,${userName}! How are you?`);
+alert(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber} \n
+${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber} \n
+${firstNumber} * ${secondNumber} = ${firstNumber * secondNumber} \n
+${firstNumber} / ${secondNumber} = ${firstNumber / secondNumber}`);
+
